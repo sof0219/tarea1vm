@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+  ** Estilos MAKEUP BY SOFI...*
+*/
+
+body {
+    background-color: #ffffff;
+    font-family: serif;
+    margin:0;
+    box-sizing: border-box;
+}
+.encabezado{
+    position:  fixed;
+    background-color:    #f10099;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding:10px;
+}
+.navegacion{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+.nav-link{
+    color:white;
+    text-decoration:  #f10099;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold ;
+    padding: 0 20px;
+    line-height: 90px;
+}
+.nav-menu{
+    display:flex;
+    margin-right:50px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 15px
+}
+aside {
+    position:  fixed;
+    background-color:  #ffcbf4 ;
+    color: #e00673  ;
+    top: 110px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+    padding:10px;
+    text-align: center;
+}
+
+section {
+    position:  fixed;
+    background-color:     #ffffff;
+    color:   #cf3682;
+    overflow-y: scroll;
+    top: 110px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%;
+    padding:15px;
+    text-align: center;
+}
+
+footer {
+    position:  fixed;
+    background-color:  #76063e;
+    text-align: center;
+    color:white;
+    left: 0%;
+    bottom: 0px;
+    width:100%;
+    height: 20px;
+}
+
+.nav-menu-link {
+    text-decoration: #76063e;
+    color:white;
+    font-size:18px;
+    padding:5px;
+    border-radius:4px;
+}
+.nav-menu-link:hover {
+    transition:1s;
+    background-color: #76063e ;
+    font-size:24px;
+}
+.titulo-grande {
+    color: blue;
+    font-size: 36px;
+}
